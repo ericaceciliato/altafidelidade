@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <ul>
+        <li class=><span>1</span> Shopping Cart</li>
+        <li class="active"><span>2</span> Shopping Info</li>
+        <li class=""><span>3</span> Payment Method</li>
+    </ul>
+</header>
+<main>
+    <form action="">
+        <select name="Country">
+            <option value="">Country</option>
+        </select>
+        <select name="City">
+            <option value="">City</option>
+        </select>
+        </select>
+        <input type="text" placeholder="State/Region/Province">
+        <input type="text" placeholder="Zip Code">
+        <input type="text" placeholder="Address 1">
+        <input type="text" placeholder="Address 2">
+
+</form>
+    <form action="#">Contact Info
+    <input type="text" name="firstName" placeholder="First Name">
+    <input type="text" name="lastName" placeholder="Last Name">
+    <input type="email" name="email" placeholder="Email">
+    <input type="number" name="phone" placeholder="Phone">
+</form>
+    <div>
+        <h3>Shipping Method</h3>
+        <input type="radio" id="standard">
+        <label for="standard">$10 Standard <span>(2-3 weeks)</span></label>
+        <input type="radio" id="ultra">
+        <label for="ultra">$20 Ultra Speed <span>(1-3 days)</span></label>
+    </div>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>LOJA TOPZERA</title>
+</head>
+<body>
+<header>
+    <ul>
+        <li class="active"><span>1</span> Shopping Cart</li>
+        <li class=""><span>2</span> Shopping Info</li>
+        <li class=""><span>3</span> Payment Method</li>
+     </ul>
+</header>
+<main>
+<table>
+    <thead>
+    <tr>
+        <th></th>
+        <th></th>
+        <th>NAME</th>
+        <th>PRICE</th>
+        <th>QUANTITY</th>
+        <th>TOTAL</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr class="item">
+        <td>&#10006</td>
+        <td><img src="" alt="imagem bosta"></td>
+        <td>
+            <div>
+                <h3 class="title">blabla</h3>
+                <div class="description"></div>
+                <span class="color">color:</span>
+                <span class="size">size:</span>
+            </div>
+        </td>
+        <td class="price"> 54353</td>
+        <td>
+            <div class="quantity">
+                <button class="less">-</button>
+                <span>3</span>
+                <button class="plus">+</button>
+            </div>
+        </td>
+        <td class="total">152</td>
+    </tr>
+    </tbody>
+
+<p><span id="subtotal"></span></p>
+<a href="#"><<span></span>Continue Shopping</a>
+<button>Shipping info</button>
+<button></button>
+</table>
+</main>
+</body>
+</html>
